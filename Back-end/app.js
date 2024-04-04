@@ -10,8 +10,7 @@ server.use(cors());
 server.use(express.urlencoded({ extended: true }));
 server.use(express.json());
 
-const dbURI =
-  "mongodb+srv://oren:Oren123456@cluster1.wtd4vma.mongodb.net/first-practice?retryWrites=true&w=majority&appName=Cluster1";
+const dbURI = "FIll Your MongoDB connection detaild here!!!!"
 
 mongoose
   .connect(dbURI)
